@@ -1,0 +1,14 @@
+{
+  "name": "shizosite",
+  "version": "1.0.0",
+  "description": "This is my blog, where i publish some shit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "GazirovanayaVoda (Obukhov Matvey)",
+  "license": "ISC"
+}

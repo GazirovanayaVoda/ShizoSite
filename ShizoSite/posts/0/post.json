@@ -1,0 +1,9 @@
+{
+  "hed":"Статья 1 (Тестовая)",
+  "txt": "12.06.2024\n10:45 UTC+4\n\nЗакончил переписывать демку сайта\nПисал пару дней, но оно того стоило",
+  "cod": "#include<stdio.h> \n\nint main(void)\n{\n  printf(10);\n  return 0;\n}",
+  "img": "img1.jpg",
+  "vid": "vid.mp4",
+  "vid1": "vid1.webm",
+  "ytb": "https://www.youtube.com/embed/lzYI4Gmxi70"
+}

@@ -1,0 +1,126 @@
+.root {
+  background-image: url("background.jpg");
+
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  --distance: 12px;
+
+  --font-family: 'Cascadia mono';
+
+  --background_color: #292d34;
+  --white: #d6d6d6;
+
+  --blur: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font-family);
+
+  background-color: var(--background_color);
+  border: 8px solid var(--background_color);
+  border-radius: 64px;
+
+  color: var(--white);
+}
+
+
+footer {
+  background-color: var(--background_color);
+  border: 8px solid var(--background_color);
+  border-radius: 64px;
+
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+
+  height: 10px;
+
+  font-family: var(--font-family);
+  color: var(--white);
+}
+
+.content_box_container--item--hed {
+  text-align: center;
+  font-family: var(--font-family);
+
+  background-color: var(--background_color);
+  border: 8px solid var(--background_color);
+  border-radius: 64px;
+
+  color: var(--white);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content_box_container--item {
+  border: 8px solid var(--white);
+  border-radius: 64px;
+
+  backdrop-filter: blur(var(--blur));
+
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.content_box_container--item--vid,
+.content_box_container--item--img,
+.content_box_container--item--ytb {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content_box_container--item--txt,
+.content_box_container--item--cod {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content_box_container--item--txt {
+  border: 8px solid var(--white);
+  border-radius: 12px;
+
+  white-space:pre;
+  font-family: var(--font-family);
+  white-space:pre-wrap;
+
+  color: var(--background_color);
+  background-color: var(--white);
+
+  margin-top: var(--distance);
+}
+
+.content_box_container--item--cod {
+  border: 8px solid var(--white);
+  border-radius: 16px;
+
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  white-space:pre-wrap;
+
+  color: var(--white);
+  background-color: var(--background_color);
+
+  margin-top: var(--distance);
+}
+
+img, video, iframe {
+  object-fit: cover;
+  height: 50%;
+  width: 50%;
+  margin-top: 10px;
+
+
+  border: 8px solid var(--white);
+  border-radius: 32px;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+}
