@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html class="root"
+      lang="ru">
+  <head>
+    <meta 
+    charset="UTF-8"
+    name="viewport" 
+    content="width=device-width, initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+    </style>
+
+    <title>Сайтик</title>
+    <link rel="stylesheet" href="/chrome.css" />
+    <script src='loader.js'></script>
+  </head>
+  <body>
+    <header>
+      <h1>Сайтик</h1>
+    </header>
+    <main>
+      <div class="button_box">
+        <button onclick="document.location='/login.html'"
+          type="button"
+          id="login"
+          title="Войти">
+          🤡
+        </button>
+        <button onclick="quit()"
+         type="button"
+         id="quit"
+         title="Выйти">х</button>
+        <button onclick="document.location='/new_post.html'" 
+         type="button"
+         id="new-post" 
+         title="Новый пост">+</button>  
+        <h2 id="user-name-header">user</h2>
+      </div>
+      <div class="content_box_container">
+        <script> load() </script>
+      </div>
+    </main>
+    <footer>
+      <!-- yt: @prosto_voda | tg: @Gazirovanaya_voda | 2024 -->
+      <small>yt: @prosto_voda | tg: @Gazirovanaya_voda | 2024</small>
+    </footer>
+  </body>
+  <script> resize_css() </script>
+  <script> get_cookies()</script>
+</html>
