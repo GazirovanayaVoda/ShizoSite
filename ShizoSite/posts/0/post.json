@@ -1,9 +1,10 @@
 {
-  "hed":"Статья 1 (Тестовая)",
+  "num":"0",
+  "foo": "Автор: admin | Опубликовано: НЕИЗВЕСТНО",
+  "hed":"Тест (SAMPLE TEXT)",
   "txt": "12.06.2024\n10:45 UTC+4\n\nЗакончил переписывать демку сайта\nПисал пару дней, но оно того стоило",
-  "cod": "#include<stdio.h> \n\nint main(void)\n{\n  printf(10);\n  return 0;\n}",
-  "img": "img1.jpg",
-  "vid": "vid.mp4",
-  "vid1": "vid1.webm",
-  "ytb": "https://www.youtube.com/embed/lzYI4Gmxi70"
+  "cod": "#include<stdio.h> \n\nint main(void)\n{\n  printf(Пример какого нибудь кода);\n  return 0;\n}",
+  "img0": "pic.jpg",
+  "img1": "https://sun9-22.userapi.com/impg/fYizUo3rrCZA_yXQ85uxfFCDBK8N14QcsrartA/gGLMacDbtsQ.jpg?size=810x1080&quality=95&sign=c8c45bda373367ee2ec1bb8bf30b348f&type=album",
+  "ytb0": "https://www.youtube.com/embed/KaQinA4EdN0"
 }

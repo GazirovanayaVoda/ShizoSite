@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html class="root"
+      lang="ru">
+  <head>
+    <meta 
+    charset="UTF-8"
+    name="viewport" 
+    content="width=device-width, initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+    </style>
+
+    <title>Войти</title>
+    <link rel="stylesheet" href="/chrome.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Войти</h1>
+      <script src="login.js"></script>
+    </header>
+    <main>
+      <div class="content_box_container">
+        <div class="content_box_container--item">
+          <form name="loginForm"
+                method="post"> 
+            <fieldset>
+              <legend>Логин</legend>
+              <input id="login_input"
+              class="keyboard_input"
+              type="Text"
+              placeholder="Введите логин"
+              name="user_login"
+              required >
+            </fieldset>
+            <fieldset>
+              <legend>Пароль</legend>
+              <input id="password_input"
+              class="keyboard_input"
+              type="password"
+              placeholder="Введите пароль"
+              name="user_password"
+              required>
+            </fieldset>
+            <fieldset>
+              <input type="button"
+              value="Готово"
+              id="submit"
+              onclick="logint()">
+            </fieldset>
+          </form>
+        </div>
+
+      </div>
+    </main>
+    <footer>
+      <!-- yt: @prosto_voda | tg: @Gazirovanaya_voda | 2024 -->
+      <small>yt: @prosto_voda | tg: @Gazirovanaya_voda | 2024</small>
+    </footer>
+  </body>
+</html>
